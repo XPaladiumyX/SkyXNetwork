@@ -1,8 +1,5 @@
-﻿# SkyXNetwork
- Welcome on Sky X Network, we are a Minecraft Server supporting every devices and Minecraft Java & Bedrock
+Welcome on Sky X Network, we are a Minecraft Server supporting every devices and Minecraft Java & Bedrock
 For more infos please go to : **https://discord.gg/pTErYjTh5h**  
-
-Presentation ->
 
 # ✨ | Sky X Network | ✨  
 This is a **Java & Bedrock server** filled with exciting game modes such as Modded Survival, SkyGens, and Prisons. But, why should you [JOIN US?](https://discord.gg/pTErYjTh5h) 【🤔】  

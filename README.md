@@ -24,6 +24,5 @@ This is a **Java & Bedrock server** filled with exciting game modes such as Modd
 > 【🗿】 `>` And we have: **__Quests, Jobs,  Shops, Crates, Bounties, an Auction House, Warps, Home, Pay, Sell, Clans, RTP, Sit, Leaderboards, & Mine-able spawners!__**  
 And **__Much More__**! 👇  
 ✨👉 https://discord.gg/pTErYjTh5h 👈 ✨   
-                                  [Banner](https://tenor.com/mo4TzVH3zdV.gif)  
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  
 **Want to join? Add [Hub SkyGenPE](https://www.xbox.com/en-US/play/user/Hub%20SkyGenPE) as a friend on Minecraft bedrock edition to join the server! Fun fact: **8.4K** people joined the server with in the last 2 years!  

@@ -5,7 +5,7 @@ For more infos please go to : **https://discord.gg/pTErYjTh5h**
 This is a **Java & Bedrock server** filled with exciting game modes such as Modded Survival, SkyGens, and Prisons. But, why should you [JOIN US?](https://discord.gg/pTErYjTh5h) 【🤔】  
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  
 > 【🎁】 `>` In-game **__Giveaways__**  
-> 【🚔】 `>` The Best __**Mods, Plugins, & Addons **__   
+> 【🚔】 `>` The Best __**Mods, Plugins, & Addons**__   
 > 【🦅】 `>` Lot's of **__Freedom__**  
 > 【🚫】 `>` No **__Lag__**  
 > 【⚠️】 `>` Has an **__Anti-cheat__**  

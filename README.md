@@ -1,7 +1,12 @@
 Welcome on Sky X Network, we are a Minecraft Server supporting every devices and Minecraft Java & Bedrock
 For more infos please go to : **https://discord.gg/pTErYjTh5h**  
-
-# ✨ | Sky X Network | ✨  
+ _______  ___   _  __   __    __   __    __    _  _______  _______ 
+|       ||   | | ||  | |  |  |  |_|  |  |  |  | ||       ||       | ✨  
+|  _____||   |_| ||  |_|  |  |       |  |   |_| ||    ___||_     _|
+| |_____ |      _||       |  |       |  |       ||   |___   |   |  
+|_____  ||     |_ |_     _|   |     |   |  _    ||    ___|  |   |  
+ _____| ||    _  |  |   |    |   _   |  | | |   ||   |___   |   |  ✨  
+|_______||___| |_|  |___|    |__| |__|  |_|  |__||_______|  |___|  
 This is a **Java & Bedrock server** filled with exciting game modes such as Modded Survival, SkyGens, and Prisons. But, why should you [JOIN US?](https://discord.gg/pTErYjTh5h) 【🤔】  
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  
 > 【🎁】 `>` In-game **__Giveaways__**  

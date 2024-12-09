@@ -25,5 +25,5 @@ And **__Much More__**! 👇
 ✨👉 https://discord.gg/pTErYjTh5h 👈 ✨  
                                   [Banner](https://tenor.com/mo4TzVH3zdV.gif)  
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  
-**Want to join? Add [SkyXNetwork](https://www.xbox.com/en-US/play/user/SkyXNetwork) as a friend on Minecraft bedrock edition to join the server!  
-**Fun fact: **9.8K** different peoples joined the server with in the last 2 years!  
+**Want to join? Add [SkyXNetwork](https://www.xbox.com/en-US/play/user/SkyXNetwork) as a friend on Minecraft bedrock edition to join the server!**  
+**Fun fact: 9.8K different peoples joined the server with in the last 2 years!**  

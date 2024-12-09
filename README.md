@@ -7,7 +7,7 @@ But, why should you [JOIN US?](https://discord.gg/pTErYjTh5h) 【🤔】
 You could even join on a Raspberry it will still works!  
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  
 > 【🎁】 `>` In-game **__Giveaways__**  
-> 【🚔】 `>` The Best __**Mods, Plugins, & Addons **__  
+> 【🚔】 `>` **The Best __Mods, Plugins, & Addons__**  
 > 【🦅】 `>` Lot's of **__Freedom__**  
 > 【🚫】 `>` No **__Lag__**  
 > 【⚠️】 `>` Has an **__Anti-cheat__**  

@@ -1,4 +1,6 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/pTErYjTh5h)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://skyxnetwork.net)  
 Welcome on Sky X Network, we are a Minecraft Server supporting every devices and Minecraft Java & Bedrock
 For more infos please go to : **https://discord.gg/pTErYjTh5h**  
 # ✨ | Sky X Network | ✨  

@@ -1,3 +1,4 @@
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 Welcome on Sky X Network, we are a Minecraft Server supporting every devices and Minecraft Java & Bedrock
 For more infos please go to : **https://discord.gg/pTErYjTh5h**  
 # ✨ | Sky X Network | ✨  

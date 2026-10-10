@@ -1,0 +1,89 @@
+Survival:
+- Update the server to 1.21.4 ✔️
+- Update the server to 1.21.8 ✔️
+- Full rework on the crates ✔️
+- Full rework on the daily reward system ✔️
+- Remplace NPC/Shops by Villager Trading Systems ✔️
+- Replace all NPC by the new NPC plugin ✔️
+- Configure new enchants from the excellentenchant update ✔️
+- Fix Itemsadder pack error with configs ✔️
+- Make CustomCrops plugin works on 1.21.4 ✔️
+- Redo the craft permissions of Itemsadders with the ranks ✔️
+- Full remake of ranks, easier system and more ranks (idea is a hand made rank/rankup gui) ✔️
+- Rework of the bank system ✔️
+- Release afk place with rewards ❌ (Waiting Server Revenues)
+- Make more modded items into the survival ✔️
+- Implement Daily Quest System (9 in total) ✔️
+- Create /withdraw Command ✔️
+- Fix First Spawn on hub for new players ✔️
+- Fix the local pack host itemsadder ✔️
+- Add Permission to open crates for players ✔️
+- Fix /rtp GUI making inventory glitch ✔️
+- Add /lobby Command ✔️
+- Make /link command system with discord accounts per minecraft players with rewards ✔️
+- Add Crafting Book for custom Recipes ❌ (/crafts ?) Open a gui with a book interface where we can place the crafts and write text.
+- Make the season vault system ❌
+- Christmas 2025 Update ✔️
+- Add 24 easter eggs in the hub ❌
+- Add more ranks for a longer gameplay ❌(chat gpt new ranks and perks ref link : https://chatgpt.com/c/6919e905-a4f0-8327-ae32-6707a48768b4)
+- Make a better place for the crates ✔️
+- Deepland Dimension (Warden Dimension) ❌
+- Custom Advancements For Custom Items ❌
+- Pvp Arena or world with system (no stuff drop) ❌
+- Add Deepslate ruby ❌
+- Retexture ruby armor and tools ❌
+- Fix bedrock pvp issue + offhand removed at each world change ✔️
+- Fix Smithing Table not working w trims on bedrock ✔️ (Tested No Issues at all)
+- Fix not able to craft banners on bedrock ✔️ (Tested no Issues at all)
+- Fix not able to place snow layers on snow layers bedrock ✔️(Test No Issues, not placing if middle side of block targeted, works well in top of block targeted)
+- A Playtime Counter Who Support Bedrock And Java Players ❌
+- Redo the discord link system ✔️
+- Add Better Gui on bedrock /shop with buttons etc.. ❌
+- Auto world reset per month (end, nether, world_mining) ❌
+- Add coordinate on bedrock on/off toggleable ✔️
+- Add Full Inventory/Player link between Farmlands and Survival Online+Offline UUID Support, Player inventory and armor, gamemode, enderchest, experience points and levels, active potion effects, health level, food and saturation level, no air level no location no bed spawn location(MysqlInventoryBridge self made) ❌
+- Fix /back who tp to spawn (make your own /back)
+
+Farmlands:
+- Update the server to 1.21.8 ✔️
+- Make Itemsadder works ✔️
+
+Global :
+- Support on latest versions ✔️
+- Update the server to 1.21.8 ✔️
+- Release SkyXPets ❌ (WIP need developpers)
+- Release SkyXCore ❌ (WIP need developpers)
+- Continue support to bedrock players along Minecraft Bedrock updates with modded/custom items ✔️
+- Media Rank ✔️
+- Tutorial How to join Skyxnetwork Update. ❌
+
+Mining Tycoon:
+- Update the server to 1.21.4 ✔️
+- Update the server to 1.21.8 ✔️
+- Update the server to 1.21.11 ✔️
+- Finish the system that the game is playable ✔️
+- Fix the global boost issue with skript ✔️
+- Finish the first community generator (pets, armors ect..) ✔️
+- Create Aether Mine Zone with custom blocks ❌
+
+Lobby :
+- Update the server to 1.21.4 ✔️
+- Update the server to 1.21.8 ✔️
+
+V6 Ideas,
+Lead players more towards making sugarcane, cactuses and kelp farms for money
+Fix fast craft/clear inv issue
+
+
+V6 Changes,
+Low tool durability ping, fast leaf decay on tree
+Season Vault
+Server on 26.1.2
+Bank upgrades has been fully reworked
+Sky X Network Shop Fully Remade, Payments now works with all payments possible existing VISA, Paypal Mastercard etc...., Skyxnetwork is now using Tebex for the payments
+Sky X Network Website fully reworked, votes fixed
+All Spawn Chests and Shulkers are non interactable now.
+On late ranks you can unlock Season Vault Slots.
+Fixed Clan System for latest mc versions.
+Added Paid Forever Ranks Elite, Hero, Legend, Eternal.
+Full rework of the Minecraft discord account linking, all fixed and better.

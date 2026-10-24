@@ -22,13 +22,13 @@ Survival:
 - Add /lobby Command ✔️
 - Make /link command system with discord accounts per minecraft players with rewards ✔️
 - Add Crafting Book for custom Recipes ❌ (/crafts ?) Open a gui with a book interface where we can place the crafts and write text.
-- Make the season vault system ❌
+- Make the season vault system ✔️
 - Christmas 2025 Update ✔️
 - Add 24 easter eggs in the hub ❌
 - Add more ranks for a longer gameplay ❌(chat gpt new ranks and perks ref link : https://chatgpt.com/c/6919e905-a4f0-8327-ae32-6707a48768b4)
 - Make a better place for the crates ✔️
 - Deepland Dimension (Warden Dimension) ❌
-- Custom Advancements For Custom Items ❌
+- Custom Advancements For Custom Items ❌ (there is now PremiumAdvancement plugin for it, just need to do it for every itemsadder plugin item i think it needs to have an advancement.)
 - Pvp Arena or world with system (no stuff drop) ❌
 - Add Deepslate ruby ❌
 - Retexture ruby armor and tools ❌
@@ -39,7 +39,19 @@ Survival:
 - A Playtime Counter Who Support Bedrock And Java Players ❌
 - Redo the discord link system ✔️
 - Add Better Gui on bedrock /shop with buttons etc.. ❌
-- Auto world reset per month (end, nether, world_mining) ❌
+- Auto world reset per month (end, nether, world_mining) ❌ (still doing it mainly, shutting down the survival, deleting world_mining, the_nether and the_end and doing this following :
+Go on the exacq vision and execute :
+cd /var/lib/pterodactyl/volumes/728e8b02-4006-42c7-a186-7b16b3eeb208
+
+ls
+
+unzip world_custom_end.zip
+
+unzip world_custom_nether.zip
+
+Done 
+Takes around 15minutes, way faster than manually Manually -> ~+11h, this is also outdated need to find how to do this on 26.2 minecraft paper because the location and names of the worlds has changed it is now in home/container/world/dimensions/minecraft
+
 - Add coordinate on bedrock on/off toggleable ✔️
 - Add Full Inventory/Player link between Farmlands and Survival Online+Offline UUID Support, Player inventory and armor, gamemode, enderchest, experience points and levels, active potion effects, health level, food and saturation level, no air level no location no bed spawn location(MysqlInventoryBridge self made) ❌
 - Fix /back who tp to spawn (make your own /back)
@@ -55,7 +67,7 @@ Global :
 - Release SkyXCore ❌ (WIP need developpers)
 - Continue support to bedrock players along Minecraft Bedrock updates with modded/custom items ✔️
 - Media Rank ✔️
-- Tutorial How to join Skyxnetwork Update. ❌
+- Video Tutorial How to join Skyxnetwork Update. ❌
 
 Mining Tycoon:
 - Update the server to 1.21.4 ✔️
@@ -64,7 +76,7 @@ Mining Tycoon:
 - Finish the system that the game is playable ✔️
 - Fix the global boost issue with skript ✔️
 - Finish the first community generator (pets, armors ect..) ✔️
-- Create Aether Mine Zone with custom blocks ❌
+- Create Aether Mine Zone with custom blocks ❌ (later first need to do all 5 zones and finish the whole new gamemode)
 
 Lobby :
 - Update the server to 1.21.4 ✔️

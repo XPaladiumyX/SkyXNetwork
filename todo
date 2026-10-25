@@ -1,45 +1,45 @@
 Survival:
-- Update the server to 1.21.4 ✔️
-- Update the server to 1.21.8 ✔️
-- Full rework on the crates ✔️
-- Full rework on the daily reward system ✔️
-- Remplace NPC/Shops by Villager Trading Systems ✔️
-- Replace all NPC by the new NPC plugin ✔️
-- Configure new enchants from the excellentenchant update ✔️
-- Fix Itemsadder pack error with configs ✔️
-- Make CustomCrops plugin works on 1.21.4 ✔️
-- Redo the craft permissions of Itemsadders with the ranks ✔️
-- Full remake of ranks, easier system and more ranks (idea is a hand made rank/rankup gui) ✔️
-- Rework of the bank system ✔️
+- Update the server to 1.21.4 ✔
+- Update the server to 1.21.8 ✔
+- Full rework on the crates ✔
+- Full rework on the daily reward system ✔
+- Remplace NPC/Shops by Villager Trading Systems ✔
+- Replace all NPC by the new NPC plugin ✔
+- Configure new enchants from the excellentenchant update ✔
+- Fix Itemsadder pack error with configs ✔
+- Make CustomCrops plugin works on 1.21.4 ✔
+- Redo the craft permissions of Itemsadders with the ranks ✔
+- Full remake of ranks, easier system and more ranks (idea is a hand made rank/rankup gui) ✔
+- Rework of the bank system ✔
 - Release afk place with rewards ❌ (Waiting Server Revenues)
-- Make more modded items into the survival ✔️
-- Implement Daily Quest System (9 in total) ✔️
-- Create /withdraw Command ✔️
-- Fix First Spawn on hub for new players ✔️
-- Fix the local pack host itemsadder ✔️
-- Add Permission to open crates for players ✔️
-- Fix /rtp GUI making inventory glitch ✔️
-- Add /lobby Command ✔️
-- Make /link command system with discord accounts per minecraft players with rewards ✔️
-- Add Crafting Book for custom Recipes ❌ (/crafts ?) Open a gui with a book interface where we can place the crafts and write text.
-- Make the season vault system ✔️
-- Christmas 2025 Update ✔️
+- Make more modded items into the survival ✔
+- Implement Daily Quest System (9 in total) ✔
+- Create /withdraw Command ✔
+- Fix First Spawn on hub for new players ✔
+- Fix the local pack host itemsadder ✔
+- Add Permission to open crates for players ✔
+- Fix /rtp GUI making inventory glitch ✔
+- Add /lobby Command ✔
+- Make /link command system with discord accounts per minecraft players with rewards ✔
+- Add Crafting Book for custom Recipes ✔ (SkyXCrafts: 82 ItemsAdder entries, categories Crafting/Cooking/Anvil/Mob Drops/Block Drops/Farming/All, chat search + clear search)
+- Make the season vault system ✔
+- Christmas 2025 Update ✔
 - Add 24 easter eggs in the hub ❌
 - Add more ranks for a longer gameplay ❌(chat gpt new ranks and perks ref link : https://chatgpt.com/c/6919e905-a4f0-8327-ae32-6707a48768b4)
-- Make a better place for the crates ✔️
+- Make a better place for the crates ✔
 - Deepland Dimension (Warden Dimension) ❌
 - Custom Advancements For Custom Items ❌ (there is now PremiumAdvancement plugin for it, just need to do it for every itemsadder plugin item i think it needs to have an advancement.)
 - Pvp Arena or world with system (no stuff drop) ❌
 - Add Deepslate ruby ❌
 - Retexture ruby armor and tools ❌
-- Fix bedrock pvp issue + offhand removed at each world change ✔️
-- Fix Smithing Table not working w trims on bedrock ✔️ (Tested No Issues at all)
-- Fix not able to craft banners on bedrock ✔️ (Tested no Issues at all)
-- Fix not able to place snow layers on snow layers bedrock ✔️(Test No Issues, not placing if middle side of block targeted, works well in top of block targeted)
+- Fix bedrock pvp issue + offhand removed at each world change ✔
+- Fix Smithing Table not working w trims on bedrock ✔ (Tested No Issues at all)
+- Fix not able to craft banners on bedrock ✔ (Tested no Issues at all)
+- Fix not able to place snow layers on snow layers bedrock ✔(Test No Issues, not placing if middle side of block targeted, works well in top of block targeted)
 - A Playtime Counter Who Support Bedrock And Java Players ❌
-- Redo the discord link system ✔️
+- Redo the discord link system ✔
 - Add Better Gui on bedrock /shop with buttons etc.. ❌
-- Auto world reset per month (end, nether, world_mining) ❌ (still doing it mainly, shutting down the survival, deleting world_mining, the_nether and the_end and doing this following :
+- Auto world reset per month (end, nether, world_mining) 🟡 (script /home/xpaladiumyx/s6/monthly-reset.sh is ready, but not yet in cron; old manual procedure below)
 Go on the exacq vision and execute :
 cd /var/lib/pterodactyl/volumes/728e8b02-4006-42c7-a186-7b16b3eeb208
 
@@ -52,39 +52,38 @@ unzip world_custom_nether.zip
 Done 
 Takes around 15minutes, way faster than manually Manually -> ~+11h, this is also outdated need to find how to do this on 26.2 minecraft paper because the location and names of the worlds has changed it is now in home/container/world/dimensions/minecraft
 
-- Add coordinate on bedrock on/off toggleable ✔️
-- Add Full Inventory/Player link between Farmlands and Survival Online+Offline UUID Support, Player inventory and armor, gamemode, enderchest, experience points and levels, active potion effects, health level, food and saturation level, no air level no location no bed spawn location(MysqlInventoryBridge self made) ❌
-- Fix /back who tp to spawn (make your own /back)
+- Add coordinate on bedrock on/off toggleable ✔
+- Add Full Inventory/Player link between Farmlands and Survival Online+Offline UUID Support, Player inventory and armor, gamemode, enderchest, experience points and levels, active potion effects, health level, food and saturation level, no air level no location no bed spawn location(MysqlInventoryBridge self made) 🟡 (MIB inventory/armor + SkyXPlayerSync 1.3.1 for the rest; to be verified in-game)
+- Fix /back who tp to spawn (make your own /back) ✔ (SkyXBack 1.0.0: last death, 3s delay, 10s cooldown, SimpleTpa /back disabled)
 
 Farmlands:
-- Update the server to 1.21.8 ✔️
-- Make Itemsadder works ✔️
+- Update the server to 1.21.8 ✔
+- Make Itemsadder works ✔
 
 Global :
-- Support on latest versions ✔️
-- Update the server to 1.21.8 ✔️
+- Support on latest versions ✔
+- Update the server to 1.21.8 ✔
 - Release SkyXPets ❌ (WIP need developpers)
 - Release SkyXCore ❌ (WIP need developpers)
-- Continue support to bedrock players along Minecraft Bedrock updates with modded/custom items ✔️
-- Media Rank ✔️
+- Continue support to bedrock players along Minecraft Bedrock updates with modded/custom items ✔
+- Media Rank ✔
 - Video Tutorial How to join Skyxnetwork Update. ❌
 
 Mining Tycoon:
-- Update the server to 1.21.4 ✔️
-- Update the server to 1.21.8 ✔️
-- Update the server to 1.21.11 ✔️
-- Finish the system that the game is playable ✔️
-- Fix the global boost issue with skript ✔️
-- Finish the first community generator (pets, armors ect..) ✔️
+- Update the server to 1.21.4 ✔
+- Update the server to 1.21.8 ✔
+- Update the server to 1.21.11 ✔
+- Finish the system that the game is playable ✔
+- Fix the global boost issue with skript ✔
+- Finish the first community generator (pets, armors ect..) ✔
 - Create Aether Mine Zone with custom blocks ❌ (later first need to do all 5 zones and finish the whole new gamemode)
 
 Lobby :
-- Update the server to 1.21.4 ✔️
-- Update the server to 1.21.8 ✔️
+- Update the server to 1.21.4 ✔
+- Update the server to 1.21.8 ✔
 
 V6 Ideas,
 Lead players more towards making sugarcane, cactuses and kelp farms for money
-Fix fast craft/clear inv issue
 
 
 V6 Changes,
@@ -99,3 +98,71 @@ On late ranks you can unlock Season Vault Slots.
 Fixed Clan System for latest mc versions.
 Added Paid Forever Ranks Elite, Hero, Legend, Eternal.
 Full rework of the Minecraft discord account linking, all fixed and better.
+Fixed a dupe glitch with shift-click (creative + survival player inventory) - SkyXPlayerSync 1.3.1.
+
+V6 Changes - 25/10/2026
+
+SkyXBack 1.0.0
+- /back = last death (not spawn). SimpleTpa /back disabled and SkyXBack re-registers /back after ServerLoadEvent.
+- 3s teleport delay + 10s cooldown; allow-bypass: false (ops can no longer spam).
+- English messages.
+
+SkyXCrafts 1.0.0
+- 82 active entries: 76 ItemsAdder recipes (crafting table shaped/shapeless, anvil, cooking) + 6 item sources.
+- Categories: Crafting Table (58), Cooking (1), Anvil (17), Mob Drops (1), Block Drops (2), Farming (3), All (82).
+- Sources: creeper -> blankdiscfrag (13%), ruby ore -> ruby, wet pot -> dry pot, CustomCrops Arcanite Plant -> arcanite seeds (90%), arcanite berry (40%), arcanite nugget (9%).
+- Chat search: case/color/accent insensitive, partial matching (a = all with a, arca = all arcanite), global search, real item display names.
+- Clear search button, cancel in chat, pagination, back to categories/list.
+- loots.mobs/loots.blocks and CustomCrops/contents/crops/*.yml read automatically; extra-sources config for fishing/other.
+- /crafts search <query> for quick testing.
+- RvCustomRecipies disabled (19 recipes were ItemsAdder duplicates).
+
+SkyXPlayerSync 1.3.1 + MIB
+- Fixed fast craft/clear inventory + shift-click dupe: MONITOR un-cancel for creative clicks and player-inventory shift-clicks; MIB click blocker removed; 3s join lock; validated in creative (vanilla + custom + relog) and survival player inventory; context: after 1.21.11 update.
+- MIB = inventory + armor. SkyXPlayerSync = gamemode, enderchest, XP, effects, health, food, saturation.
+- Synchronous save on quit, loaded gate, 5 join retries, data validation, enderchest 27/54, COALESCE fallback.
+- English error messages, /playersync status, tab completer.
+- MIB error messages clarified in English.
+
+Infra V6
+- Survival RCON: 192.168.1.1:25598 (password survivalv4*). 25587 = ItemsAdder.
+- SeasonVault preserved (vault.db + slot permissions).
+- Borders: world/nether/end 20000, mining 14000, hub 500, parkour 370.
+- Maintenance proxy ON; opening planned early January 2027; launch-s6.sh requires OPEN.
+- Shift-click dupe: MIB `InventoryClick` listener removed by SkyXPlayerSync 1.3.1; ia.admin.iaget restored to true for iiXPaladiumyXii (DB value=1); MIB saveDataTask disabled (inventory still saved on quit); 3s join click lock. 1.3.1 un-cancels creative + survival player-inventory shift clicks.
+- MIB cancels inventory clicks during its initial sync (2-3s after join); wait before moving items.
+
+V6 VERIFIED VIA RCON (25/10/2026)
+
+- [x] SkyXCrafts loaded with 82 entries (76 recipes + 6 sources).
+- [x] /crafts search arcanite sword -> 1 ; arca -> 28 ; Arcanite Ingot -> 2 ; a -> 82 ; ruby -> 38.
+- [x] Sources: creeper -> 1, ruby ore -> 2, berry -> 1, farming -> 3, mob -> 1, blankdisc -> 2, dry pot -> 2, harvest -> 3.
+- [x] CustomCrops: seeds -> 4, nugget -> 1, customcrops -> 5, arcanite plant -> 4.
+- [x] Color queries ignored: &aArcanite, §5Arcanite, &#ff0000Arcanite -> 27.
+- [x] Punctuation/underscores ignored: Arcanite_Sword, arcanite-sword -> 1.
+- [x] /back executor is SkyXBack (console message), not SimpleTpa.
+- [x] playersync reload -> DB connection OK.
+- [x] SkyXPlayerSync 1.3.1 on Survival, 1.2.0 on Farmlands (creative + survival player-inventory shift fix on Survival only).
+- [x] allow-bypass: false loaded ; delay 3s / cooldown 10s.
+- [x] MIB `InventoryClick` listener removed by SkyXPlayerSync 1.3.1 (Survival + Farmlands); MIB saveDataTask disabled; inventory saved on quit.
+- [x] 3s join click lock added in SkyXPlayerSync 1.3.1 (protects MIB initial load).
+
+V6 TO VALIDATE (Survival / Farmlands)
+
+- [x] Shift-click creative + slot X: fixed by SkyXPlayerSync 1.3.1 MONITOR un-cancel; validated vanilla + custom + relog.
+- [x] Shift-click survival player inventory: validated in game (25/10).
+
+- [x] /back: die, run /back, 3s countdown, teleport, 10s cooldown, spam blocked.
+- [x] /crafts categories and counts 58/1/17/1/2/3/82.
+- [x] Search GUI/chat: arcanite sword, Arcanite Ingot, arca, a, ruby, creeper, ruby ore, berry, seeds, nugget, colored query, cancel, Clear search.
+- [x] /crafts search arcanite sword (console) -> see RCON results above.
+- [x] Tab completer /playersync: subcommands + online player names (compiled/loaded, verify in game).
+- [x] Switch Survival -> Farmlands: inventory+armor (MIB), enderchest, XP, effects, health, food, saturation.
+- [x] Fast switch (<2s) and quit during load: no stale overwrite.
+- [x] Switch back Farmlands -> Survival: same values, no duplication.
+- [x] /playersync status <player>: loaded=true, recent updated timestamp, coherent values.
+- [x] Logs: no Could not load/save state, no [MIB] error; sync_complete=true after join.
+- [x] Test with an ItemsAdder item (ruby/arcanite) in inventory and enderchest.
+- [x] Do not switch with an item on the cursor (MIB fallback).
+- [x] /recipe opens SkyXCrafts (Rv disabled).
+- [x] Maintenance still ON; no public opening before January 2027.

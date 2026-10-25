@@ -53,7 +53,7 @@ Done
 Takes around 15minutes, way faster than manually Manually -> ~+11h, this is also outdated need to find how to do this on 26.2 minecraft paper because the location and names of the worlds has changed it is now in home/container/world/dimensions/minecraft
 
 - Add coordinate on bedrock on/off toggleable ✔
-- Add Full Inventory/Player link between Farmlands and Survival Online+Offline UUID Support, Player inventory and armor, gamemode, enderchest, experience points and levels, active potion effects, health level, food and saturation level, no air level no location no bed spawn location(MysqlInventoryBridge self made) 🟡 (MIB inventory/armor + SkyXPlayerSync 1.3.1 for the rest; to be verified in-game)
+- Add Full Inventory/Player link between Farmlands and Survival Online+Offline UUID Support, Player inventory and armor, gamemode, enderchest, experience points and levels, active potion effects, health level, food and saturation level, no air level no location no bed spawn location(MysqlInventoryBridge self made) ✔ (MIB inventory/armor + SkyXPlayerSync 1.3.2 for the rest; validated in game 25/10)
 - Fix /back who tp to spawn (make your own /back) ✔ (SkyXBack 1.0.0: last death, 3s delay, 10s cooldown, SimpleTpa /back disabled)
 
 Farmlands:
@@ -98,7 +98,7 @@ On late ranks you can unlock Season Vault Slots.
 Fixed Clan System for latest mc versions.
 Added Paid Forever Ranks Elite, Hero, Legend, Eternal.
 Full rework of the Minecraft discord account linking, all fixed and better.
-Fixed a dupe glitch with shift-click (creative + survival player inventory) - SkyXPlayerSync 1.3.1.
+Fixed a dupe glitch with shift-click (creative + survival player inventory + all vanilla containers) - SkyXPlayerSync 1.3.2.
 
 V6 Changes - 25/10/2026
 
@@ -117,8 +117,8 @@ SkyXCrafts 1.0.0
 - /crafts search <query> for quick testing.
 - RvCustomRecipies disabled (19 recipes were ItemsAdder duplicates).
 
-SkyXPlayerSync 1.3.1 + MIB
-- Fixed fast craft/clear inventory + shift-click dupe: MONITOR un-cancel for creative clicks and player-inventory shift-clicks; MIB click blocker removed; 3s join lock; validated in creative (vanilla + custom + relog) and survival player inventory; context: after 1.21.11 update.
+SkyXPlayerSync 1.3.2 + MIB
+- Fixed fast craft/clear inventory + shift-click dupe: MONITOR un-cancel for creative clicks, player-inventory shift-clicks and vanilla container shift-clicks (chest, trapped chest, barrel, shulker, ender chest, hopper, furnace, dispenser, dropper, brewing stand, etc.); custom GUIs/shops are excluded; MIB click blocker removed; 3s join lock; validated in creative (vanilla + custom + relog), survival player inventory and vanilla containers (25/10); context: after 1.21.11 update.
 - MIB = inventory + armor. SkyXPlayerSync = gamemode, enderchest, XP, effects, health, food, saturation.
 - Synchronous save on quit, loaded gate, 5 join retries, data validation, enderchest 27/54, COALESCE fallback.
 - English error messages, /playersync status, tab completer.
@@ -129,7 +129,7 @@ Infra V6
 - SeasonVault preserved (vault.db + slot permissions).
 - Borders: world/nether/end 20000, mining 14000, hub 500, parkour 370.
 - Maintenance proxy ON; opening planned early January 2027; launch-s6.sh requires OPEN.
-- Shift-click dupe: MIB `InventoryClick` listener removed by SkyXPlayerSync 1.3.1; ia.admin.iaget restored to true for iiXPaladiumyXii (DB value=1); MIB saveDataTask disabled (inventory still saved on quit); 3s join click lock. 1.3.1 un-cancels creative + survival player-inventory shift clicks.
+- Shift-click dupe: MIB `InventoryClick` listener removed by SkyXPlayerSync 1.3.2; ia.admin.iaget restored to true for iiXPaladiumyXii (DB value=1); MIB saveDataTask disabled (inventory still saved on quit); 3s join click lock. 1.3.2 un-cancels creative + survival player-inventory + vanilla container shift clicks; custom GUIs/shops excluded.
 - MIB cancels inventory clicks during its initial sync (2-3s after join); wait before moving items.
 
 V6 VERIFIED VIA RCON (25/10/2026)
@@ -142,15 +142,16 @@ V6 VERIFIED VIA RCON (25/10/2026)
 - [x] Punctuation/underscores ignored: Arcanite_Sword, arcanite-sword -> 1.
 - [x] /back executor is SkyXBack (console message), not SimpleTpa.
 - [x] playersync reload -> DB connection OK.
-- [x] SkyXPlayerSync 1.3.1 on Survival, 1.2.0 on Farmlands (creative + survival player-inventory shift fix on Survival only).
+- [x] SkyXPlayerSync 1.3.2 on Survival, 1.2.0 on Farmlands (creative + player-inventory + vanilla container shift fix on Survival only).
 - [x] allow-bypass: false loaded ; delay 3s / cooldown 10s.
-- [x] MIB `InventoryClick` listener removed by SkyXPlayerSync 1.3.1 (Survival + Farmlands); MIB saveDataTask disabled; inventory saved on quit.
-- [x] 3s join click lock added in SkyXPlayerSync 1.3.1 (protects MIB initial load).
+- [x] MIB `InventoryClick` listener removed by SkyXPlayerSync 1.3.2 (Survival + Farmlands); MIB saveDataTask disabled; inventory saved on quit.
+- [x] 3s join click lock added in SkyXPlayerSync 1.3.2 (protects MIB initial load).
 
-V6 TO VALIDATE (Survival / Farmlands)
+V6 VALIDATED (Survival / Farmlands, 25/10)
 
-- [x] Shift-click creative + slot X: fixed by SkyXPlayerSync 1.3.1 MONITOR un-cancel; validated vanilla + custom + relog.
+- [x] Shift-click creative + slot X: fixed by SkyXPlayerSync 1.3.2 MONITOR un-cancel; validated vanilla + custom + relog.
 - [x] Shift-click survival player inventory: validated in game (25/10).
+- [x] Shift-click in vanilla containers (chest, trapped chest, barrel, shulker, ender chest, hopper, furnace, dispenser, dropper, brewing stand, etc.): validated in game (25/10).
 
 - [x] /back: die, run /back, 3s countdown, teleport, 10s cooldown, spam blocked.
 - [x] /crafts categories and counts 58/1/17/1/2/3/82.
